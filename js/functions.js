@@ -23,6 +23,7 @@ function login(){
 	if(name.length==0){
 		document.getElementById("ph").innerHTML = "email can't be blank";
 	}
+    document.getElementById("ph").innerHTML = "wrong email password pair";
 	
 }
 function register(){
